@@ -1,0 +1,19 @@
+
+{{template "header"}}
+
+  <div class="container">
+    <ul class="list-group">
+      <li class="list-group-item">ID: {{.data.ID}}</li>
+      <li class="list-group-item">UserName: {{.data.UserName}}</li>
+      <li class="list-group-item">FullName: {{.data.FullName}}</li>
+      <li class="list-group-item">ProfilePicture: {{.data.ProfilePicture}}</li>
+      <li class="list-group-item">Bio: {{.data.Bio}}</li>
+      <li class="list-group-item">Website: {{.data.Website}}</li>
+      <li class="list-group-item">Media: {{.data.Counts.Media}}</li>
+      <li class="list-group-item">Follows: {{.data.Counts.Follows}}</li>
+      <li class="list-group-item">FollowedBy: {{.data.Counts.FollowedBy}}</li>
+    </ul>
+  </div>
+  
+
+{{template "footer"}}

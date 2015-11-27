@@ -1,0 +1,7 @@
+
+bin/*
+log/*
+pkg/*
+
+vendor/pkg/*
+vendor/src/*
